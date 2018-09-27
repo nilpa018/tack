@@ -17,6 +17,7 @@ componentDidMount() {
     this.setState({
     	count: this.state.count + 1
     });
+	console.log("un update a eu lieu");
   }
 
 	render() {
